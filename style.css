@@ -1,0 +1,79 @@
+* {
+  font-family: Lato;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  height: 18vh;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 18vh;
+}
+
+#header * {
+  margin: 2px 0;
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 16vh;
+  width: auto;
+  border-top: white 1vh solid;
+  border-left: white 1vh solid;
+  border-bottom: white 1vh solid;
+}
+
+#alinks a {
+  padding: 0 3vw;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-family: Lato;
+  font-weight: 900;
+}
+
+section {
+  height: 82vh;
+  width: 100%<
+}
+
+.link {
+  position: relative;
+  top: -10vh;
+  left: 0;
+}
+
+#home {
+  background-color: #f5f5f5;
+  margin-top: 18vh;
+}
+#about {
+  background-color: #e5f6df;
+}
+#contact {
+  background-color: #caeec2;
+}
+#reviews {
+  background-color: #90ee91;
+}
