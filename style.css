@@ -1,5 +1,10 @@
 * {
-  font-family: Lato;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+
+p {
+  font-size: large;
 }
 
 html {
@@ -20,7 +25,10 @@ header {
   width: 100%;
   background-color: white;
   height: 18vh;
+  max-height: 18vh;
+  z-index: 999;
 }
+
 #header {
   display: flex;
   justify-content: center;
@@ -55,7 +63,11 @@ header {
 
 section {
   height: 82vh;
-  width: 100%<
+  width: 100%;
+}
+
+#hometext { 
+  margin-left: 15%;
 }
 
 .link {
@@ -76,4 +88,69 @@ section {
 }
 #reviews {
   background-color: #90ee91;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form div {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form textarea {
+  height: 100px;
+}
+
+#website {
+  height: 100px;
+}
+
+#contactform h1 {
+  margin-top: 0;
+  margin-left: 21vw;
+}
+
+#contactform {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
