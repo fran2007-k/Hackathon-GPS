@@ -3,18 +3,18 @@
   font-weight: 900;
 }
 
+html {
+  overflow-x: hidden; 
+  /* aspect-ratio: 4/3; */
+}
+
 p {
   font-size: large;
 }
 
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
   margin: 0;
-  aspect-ratio: 4 / 3;
+  width: 100%;
 }
 
 header {
@@ -155,26 +155,46 @@ form textarea {
   transform: translate(-50%, -50%);
 }
 
+#manoimg {
+  width: auto;
+  height: 50%;
+}
+
+.sectionContent {
+  height: 100%;
+}
 #about .sectionContent {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+#about .textcontent {
+  width: 40%;
 }
 
 #about p {
-  margin-left: 60%;
-  margin-right: 10%;
   text-align: justify;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 100%;
 }
 
 #reviews .sectionContent {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 
 #reviews .quotes {
+  font-style: italic;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
 }
 
 #home img {
