@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  aspect-ratio: 4 / 3;
 }
 
 header {
@@ -57,7 +58,6 @@ header {
   font-size: large;
   text-decoration: none;
   color: black;
-  font-family: Lato;
   font-weight: 900;
 }
 
@@ -72,7 +72,7 @@ section {
 
 .link {
   position: relative;
-  top: -10vh;
+  top: -18vh;
   left: 0;
 }
 
@@ -81,13 +81,13 @@ section {
   margin-top: 18vh;
 }
 #about {
-  background-color: #e5f6df;
-}
-#contact {
   background-color: #caeec2;
 }
+#contact {
+  background-color: #f5f5f5
+}
 #reviews {
-  background-color: #90ee91;
+  background-color: #caeec2;
 }
 
 form {
@@ -145,7 +145,7 @@ form textarea {
 
 #contactform h1 {
   margin-top: 0;
-  margin-left: 21vw;
+  margin-left: 11vw;
 }
 
 #contactform {
@@ -153,4 +153,33 @@ form textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#about .sectionContent {
+  display: flex;
+  align-items: center;
+}
+
+#about p {
+  margin-left: 60%;
+  margin-right: 10%;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#reviews .sectionContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#reviews .quotes {
+}
+
+#home img {
+  height: 75%;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 20%;
 }
