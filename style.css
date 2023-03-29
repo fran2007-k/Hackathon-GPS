@@ -1,3 +1,12 @@
+/* 
+Logo color scheme lighter to darker
+White/Gray = #F2F2F2 (We also use #f5f5f5)
+Light green = #D1F2C2
+Medium green = #A0D977
+Dark green = #6EBF49
+Black = #0D0D0D
+*/
+
 * {
   font-family: 'Merriweather', serif;
   font-weight: 900;
@@ -179,21 +188,24 @@ form textarea {
   font-size: 100%;
 }
 
-#reviews .sectionContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
+#reviews #quoteContent * {
+  margin-bottom: 10%;
+  color: #303030;
 }
 
 #reviews .quotes {
   font-style: italic;
   font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100%;
+  text-align: center;
+  margin: 0 5%;
+}
+
+#reviews {
+  position: absolute;
+}
+#reviews h1 {
+  font-size: xx-large;
   text-align: center;
 }
 
